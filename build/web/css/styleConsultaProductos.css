@@ -1,0 +1,111 @@
+/* 
+    Created on : 12/11/2021, 07:27:53 PM
+    Author     : H4HG
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    background-color: #666666;
+    height: 100%;
+    font-family: cursive;
+}
+
+body
+{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+}
+
+div
+{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 100%;
+}
+
+table
+{
+    border: 1px solid;
+    margin: 0.5rem;    
+    height: auto;
+}
+
+tbody
+{
+    height: auto;
+}
+
+tr
+{
+    height: auto;
+}
+
+th
+{
+    text-align: center;
+    border: 1px solid;
+    font-size: 2.5rem;
+}
+
+td
+{
+    text-align: center;
+    border: 1px solid;
+    font-size: 2rem;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+p
+{
+    font-size: 2.5rem;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+.boton
+{
+    font-size: 2.8rem;    
+    margin: 2.5rem;
+}
+
+.boton:hover
+{
+    color: #0066ff;
+    font-size: 3rem;
+}
+
+.caja
+{
+    font-size: 2.8rem;
+    background-color: #999999;
+    color: white;
+    text-align: center;
+}
+
+.caja::placeholder
+{
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+}

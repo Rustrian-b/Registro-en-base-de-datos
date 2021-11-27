@@ -1,0 +1,49 @@
+/* 
+    Created on : 13/11/2021, 09:17:36 AM
+    Author     : H4HG
+*/
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    background-color: #666666;
+    height: 100%;
+    font-family: cursive;
+}
+
+body
+{
+    height: 100%;    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a
+{
+    font-size: 2.5rem;
+    color: #3399ff;
+    text-decoration:none;
+    text-align: center;
+}
+
+a:hover
+{
+    font-size: 2.7rem;
+    color: #000000;
+    text-decoration:none;
+}
+
+p
+{
+    font-size: 3.5rem;
+    text-align: center;    
+}
